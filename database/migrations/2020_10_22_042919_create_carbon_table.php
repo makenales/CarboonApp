@@ -38,7 +38,7 @@ class CreateCarbonTable extends Migration
             ]);
             $table->enum('country', ['usa', 'gbr', 'def']);
             $table->timestamp('expires_at', 0);
-            $table->float('carbon', 8, 2);
+            $table->float('carbonFootprint', 8, 2);
             $table->timestamps();
         });
     }
